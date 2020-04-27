@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Fis_Fli">
+    <test name="Registration_Booking_a">
+        <classes>
+            <class name="Flights_Scripts.Registration_Booking_a"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="FlightBook_SinglePassenger_Roundway">
+        <classes>
+            <class name="Flights_Scripts.FlightBook_SinglePassenger_Roundway"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="FlightBook_MultiplePassenger_oneway">
+        <classes>
+            <class name="Flights_Scripts.FlightBook_MultiplePassenger_oneway"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Registration_HomeLink">
+        <classes>
+            <class name="Flights_Scripts.Registration_HomeLink"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Registration_Signin_Signoff_a">
+        <classes>
+            <class name="Flights_Scripts.Registration_Signin_Signoff_a"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Signin_without_registration">
+        <classes>
+            <class name="Flights_Scripts.Signin_without_registration"/>
+        </classes>
+    </test> <!-- Test -->
+</suite>

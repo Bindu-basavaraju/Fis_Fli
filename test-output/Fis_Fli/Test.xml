@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Bindu.local" name="Flights_Scripts.Registration_Booking_a" tests="3" failures="0" timestamp="26 Apr 2020 16:26:29 GMT" time="64.359" errors="0">
+  <testcase name="Regis1" time="15.628" classname="Flights_Scripts.Registration_Booking_a"/>
+  <testcase name="Flight" time="15.082" classname="Flights_Scripts.Registration_Booking_a"/>
+  <testcase name="Book" time="25.45" classname="Flights_Scripts.Registration_Booking_a"/>
+</testsuite>

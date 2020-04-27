@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Bindu.local" name="Flights_Scripts.Signin_without_registration" tests="2" failures="1" timestamp="27 Apr 2020 05:58:51 GMT" time="66.24" errors="0">
+  <testcase name="sign" time="18.108" classname="Flights_Scripts.Signin_without_registration">
+    <failure type="java.io.IOException" message="Destination &amp;apos;./Screenshots&amp;apos; exists but is a directory">
+      <![CDATA[java.io.IOException: Destination './Screenshots' exists but is a directory
+	at org.apache.commons.io.FileUtils.doCopyFile(FileUtils.java:1118)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1076)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1028)
+	at Flights_Scripts.Signin_without_registration.sign(Signin_without_registration.java:36)
+... Removed 24 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="Flight" time="7.61" classname="Flights_Scripts.Signin_without_registration"/>
+</testsuite>

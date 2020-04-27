@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Fis_Fli]">
+  <test name="Signin_without_registration(failed)" preserve-order="false">
+    <classes>
+      <class name="Flights_Scripts.FlightBook_MultiplePassenger_oneway">
+        <methods>
+          <include name="signoff"/>
+          <include name="initialize"/>
+        </methods>
+      </class>
+      <class name="Flights_Scripts.Registration_HomeLink">
+        <methods>
+          <include name="signoff"/>
+          <include name="initialize"/>
+        </methods>
+      </class>
+      <class name="Flights_Scripts.Registration_Booking_a">
+        <methods>
+          <include name="initialize"/>
+          <include name="signoff"/>
+        </methods>
+      </class>
+      <class name="Flights_Scripts.Signin_without_registration">
+        <methods>
+          <include name="initialize"/>
+          <include name="sign"/>
+          <include name="signoff"/>
+        </methods>
+      </class>
+      <class name="Flights_Scripts.FlightBook_SinglePassenger_Roundway">
+        <methods>
+          <include name="signoff"/>
+          <include name="initialize"/>
+        </methods>
+      </class>
+      <class name="Flights_Scripts.Registration_Signin_Signoff_a">
+        <methods>
+          <include name="signoff"/>
+          <include name="initialize"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Registration_Booking_a(failed)" preserve-order="false">
+    <classes>
+      <class name="Flights_Scripts.FlightBook_MultiplePassenger_oneway">
+        <methods>
+          <include name="signoff"/>
+          <include name="initialize"/>
+        </methods>
+      </class>
+      <class name="Flights_Scripts.Registration_HomeLink">
+        <methods>
+          <include name="signoff"/>
+          <include name="initialize"/>
+        </methods>
+      </class>
+      <class name="Flights_Scripts.Registration_Booking_a">
+        <methods>
+          <include name="initialize"/>
+          <include name="Book"/>
+          <include name="Flight"/>
+          <include name="signoff"/>
+          <include name="Regis1"/>
+        </methods>
+      </class>
+      <class name="Flights_Scripts.Signin_without_registration">
+        <methods>
+          <include name="initialize"/>
+          <include name="signoff"/>
+        </methods>
+      </class>
+      <class name="Flights_Scripts.FlightBook_SinglePassenger_Roundway">
+        <methods>
+          <include name="signoff"/>
+          <include name="initialize"/>
+        </methods>
+      </class>
+      <class name="Flights_Scripts.Registration_Signin_Signoff_a">
+        <methods>
+          <include name="signoff"/>
+          <include name="initialize"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Registration_Signin_Signoff_a(failed)" preserve-order="false">
+    <classes>
+      <class name="Flights_Scripts.FlightBook_MultiplePassenger_oneway">
+        <methods>
+          <include name="signoff"/>
+          <include name="initialize"/>
+        </methods>
+      </class>
+      <class name="Flights_Scripts.Registration_HomeLink">
+        <methods>
+          <include name="signoff"/>
+          <include name="initialize"/>
+        </methods>
+      </class>
+      <class name="Flights_Scripts.Registration_Booking_a">
+        <methods>
+          <include name="initialize"/>
+          <include name="signoff"/>
+        </methods>
+      </class>
+      <class name="Flights_Scripts.Signin_without_registration">
+        <methods>
+          <include name="initialize"/>
+          <include name="signoff"/>
+        </methods>
+      </class>
+      <class name="Flights_Scripts.FlightBook_SinglePassenger_Roundway">
+        <methods>
+          <include name="signoff"/>
+          <include name="initialize"/>
+        </methods>
+      </class>
+      <class name="Flights_Scripts.Registration_Signin_Signoff_a">
+        <methods>
+          <include name="Sign"/>
+          <include name="signoff"/>
+          <include name="initialize"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
